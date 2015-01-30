@@ -34,7 +34,7 @@ $path = rtrim('/' . (isset($_GET['path']) ? trim($_GET['path'], '/') : ''), '/')
 		<div id="main-container">
 			<form class="folder-scanner-form" action="post" onsubmit="return false;">
 				<div class="input-group">
-					<span class="input-group-addon">/webroot/</span>
+					<span class="input-group-addon"><?php echo dirname(dirname(__FILE__)); ?>/</span>
 					<input type="text" class="folder-path form-control" placeholder="please enter the folder path... e.g. '/' for base path" title="please enter the folder path... e.g. '/' for base path" value="<?php echo $path; ?>" />
 					<span class="input-group-btn">
 						<button class="btn btn-success" type="submit">Scan</button>
