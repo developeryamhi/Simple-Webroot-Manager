@@ -1,4 +1,4 @@
-# Simple-Webroot-Manager
+# Simple Webroot Manager
 
 Simple Webroot Manager to have general view of webroot and to fix the common file permissions and ownership issues.
 
