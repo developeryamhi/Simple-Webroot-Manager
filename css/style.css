@@ -1,0 +1,33 @@
+body {
+	background:#EEE;
+}
+.navbar {
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-ms-border-radius:0;
+	-o-border-radius:0;
+}
+.navbar-inverse .navbar-brand {
+	color:#FFF;
+}
+#main-container {
+	background:#666;
+	padding:20px;
+	color:#FEFEFE;
+}
+.folder-scanned-data,
+.no-folder-scanned-data {
+	margin-top:15px;
+	display:none;
+}
+.no-folder-scanned-data {
+	padding:5px;
+}
+.folder-scanned-data {
+	color:#222;
+}
+.folder-scanned-data .scanned-item-actions a {
+	margin-right:5px;
+	text-decoration:none;
+}
